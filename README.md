@@ -22,7 +22,7 @@ Portfolio 3.0 Plus with React.
    
 ## Description
 
-This is another updated portfolio, focusing on the frontend of web development.
+This is another updated portfolio, focusing on the frontend and backend of web development using React. 
 
 For this particular portfolio, I've used HTML, React and Javascript. 
   
