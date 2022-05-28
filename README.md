@@ -58,7 +58,7 @@ No installation is needed. Just click on the link to have access to my website.
 [Deployed Link]()
 
 
-[Github Portfolio Twopointo](https://github.com/chaunnybby7/chaunnysreactportfolio)
+[Github React Portfolio](https://github.com/chaunnybby7/chaunnysreactportfolio)
 
 ## Authors
 YiLin Ong
