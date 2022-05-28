@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/chaunnysreactportfolio/static/css/main.4c8557ae.css",
+    "main.js": "/chaunnysreactportfolio/static/js/main.e122d19e.js",
+    "index.html": "/chaunnysreactportfolio/index.html",
+    "main.4c8557ae.css.map": "/chaunnysreactportfolio/static/css/main.4c8557ae.css.map",
+    "main.e122d19e.js.map": "/chaunnysreactportfolio/static/js/main.e122d19e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4c8557ae.css",
+    "static/js/main.e122d19e.js"
+  ]
+}
