@@ -1,21 +1,52 @@
 import React from 'react';
+import { Button, Card } from 'react-bootstrap';
+import TypeWriterEffect from "react-typewriter-effect";
 
-export default function Home() {
+
+
+export default function Home({ currentPage, handlePageChange }) {
   return (
+
     <div>
-      <h1>Home Page</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
-      </p>
+
+      <Card className="text-center">
+  <Card className="card-header">Welcome to Yilin's React Portfolio 4.0+</Card>
+  <Card.Body>
+<Card.Text>     
+<h1><b>YiLin Ong</b>.</h1> <i>aka</i> <b>Chaunny.</b> <br/ ><br />
+In Progress: 
+
+<div className="Typew">
+<TypeWriterEffect
+startDelay={1000}
+cursorColor="pink"
+multiText={[
+  'Full Stack Developer',
+  'Software Engineer',
+  'Front-End Web Developer',
+  'Peacemaker ☮️✌🏻'
+]}
+multiTextDelay={1000}
+typeSpeed={30}
+/></div><br / >
+      Currently based in NYC. 
+   </Card.Text>
+
+   <a
+   href="#about"
+   onClick={() => handlePageChange('About')}
+   className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+ >
+   About
+ </a>
+
+  </Card.Body>
+<br /><br /><br /><br /><br /><br /><br /><br />
+
+</Card>
+
+      
     </div>
+
   );
-}
+    }
