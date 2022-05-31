@@ -1,10 +1,14 @@
-import React from 'react';
-import { Button, Card } from 'react-bootstrap';
+import React, { useState } from 'react';
+import { Button, Card, Container } from 'react-bootstrap';
 import TypeWriterEffect from "react-typewriter-effect";
+// import { NavLink, Switch, Route } from 'react-router-dom';
 
 
 
-export default function Home({ currentPage, handlePageChange }) {
+
+export default function Home(props) {
+
+
   return (
 
     <div>
@@ -32,15 +36,15 @@ typeSpeed={30}
       Currently based in NYC. 
    </Card.Text>
 
-   <a
-   href="#about"
-   onClick={() => handlePageChange('About')}
-   className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
- >
-   About
- </a>
+   <button onClick={() => {
+    props.history.push('/about');
+  }}>hi</button>
+
 
   </Card.Body>
+
+
+  
 <br /><br /><br /><br /><br /><br /><br /><br />
 
 </Card>
