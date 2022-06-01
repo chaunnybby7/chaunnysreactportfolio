@@ -9,6 +9,22 @@ div {
 .nav a {
   color: #62554a !important;
 }
+a:link {
+  color: black !important;
+  text-decoration: none !important;
+}
+a:active {
+  color: black !important;
+  text-decoration: none !important;
+}
+a:visited {
+  color: black !important;
+}
+
+a:hover {
+  background-color: #62554a !important;
+  color: white !important;
+}
 
 h1 {
   text-transform: uppercase !important;
@@ -18,10 +34,27 @@ h1 {
   color: rgb(255, 255, 255) !important;
   font-weight: 500;
   font-size: 18px;
+  text-align: center;
+  justify-content: center !important;
   text-transform: uppercase;
   font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
 
+.g-3 {
+  justify-content: center !important;
+  margin-bottom: 3em;
+  display: flex;
+  width: 600px !important;
+  padding: 30px;
+  margin-left: 500px !important;
+}
+
+.g-4 {
+  justify-content: center !important;
+  margin-bottom: 3em;
+  display: flex;
+  padding: 30px;
+}
 .text-muted {
   background-color: rgb(171, 143, 128) !important;
   color: white !important;
@@ -29,6 +62,33 @@ h1 {
   font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
 
+.footer {
+border-bottom: 0px !important;
+
+}
+
+.links {
+  cursor: pointer;
+
+}
+
+.links:hover {
+  cursor: pointer;
+  background-color: rgb(233, 210, 255);
+}
+
+
+.social {
+  cursor: pointer;
+  display: inline-block !important;
+  flex-direction: row !important
+
+}
+
+.social:hover {
+  cursor: pointer;
+  color:rgb(171, 143, 128);
+}
 p {
   font-size: 22px;
   text-align: center !important;
@@ -43,7 +103,6 @@ p {
   justify-content: center !important;
   text-align: center !important;
 } */
-
 .button {
   background-color: black !important;
   color: white !important;
@@ -51,6 +110,21 @@ p {
   padding: 12px !important;
   text-transform: uppercase;
   font-weight: 500 !important;
+  margin-right: 30px !important;
+  border-color: black !important;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+
+.button-2 {
+  background-color: black !important;
+  color: white !important;
+  border-radius: 5em !important;
+  padding: 12px !important;
+  text-transform: uppercase;
+  font-weight: 500 !important;
+  display: inline-flex;
+  margin-left: 80px !important;
   border-color: black !important;
   font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }

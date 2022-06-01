@@ -18,7 +18,7 @@ export default function About() {
       download
     >
       Resume
-    </a> 📃.
+    </a> 📃
     <br/ >    <br/ >    
 
        <h2>Skills:</h2>

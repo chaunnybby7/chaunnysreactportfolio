@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { Button, Card, Container } from 'react-bootstrap';
+import { Button, Card } from 'react-bootstrap';
 import TypeWriterEffect from "react-typewriter-effect";
-// import { NavLink, Switch, Route } from 'react-router-dom';
+import { NavLink, Switch, Route } from 'react-router-dom';
 
 
 
@@ -28,17 +28,19 @@ multiText={[
   'Full Stack Developer',
   'Software Engineer',
   'Front-End Web Developer',
-  'Peacemaker ☮️✌🏻'
+  'Peacemaker ☮️✌🏻',
+  'Good Dog Mom🐶🥰'
 ]}
 multiTextDelay={1000}
 typeSpeed={30}
 /></div><br / >
       Currently based in NYC. 
    </Card.Text>
-
-   <button onClick={() => {
+   
+   <br /> <br />
+   <button className='button' onClick={() => {
     props.history.push('/about');
-  }}>hi</button>
+  }}>Learn More</button>
 
 
   </Card.Body>
@@ -48,8 +50,8 @@ typeSpeed={30}
 <br /><br /><br /><br /><br /><br /><br /><br />
 
 </Card>
-
       
+
     </div>
 
   );
