@@ -21,12 +21,12 @@ Portfolio 4.0 Plus with React.
 
    
 ## Description
-
-This is another updated portfolio, focusing on the frontend and backend of web development using React. 
+```
+This is another updated portfolio, focusing on the frontend of Web Development using React. 
 
 For this particular portfolio, I've used HTML, React and Javascript. 
   
-
+```
 ## Demo
 
 
@@ -48,10 +48,22 @@ For this particular portfolio, I've used HTML, React and Javascript.
 
 ## Installation
 
-No installation is needed. Just click on the link to have access to my website. 
-
-
-
+```
+After cloning down this repository, please run `npm install`.
+```
+Packages installed:
+- [x] Axios
+- [x] Bootstrap
+- [x] Express
+- [x] Dotenv
+- [x] gh-pages
+- [x] React
+- [x] React-bootstrap
+- [x] React-dom
+- [x] React-router-bootstrap
+- [x] React-router-dom
+- [x] React-typewriter-effect
+- [x] Web-vitals
 
 ## Links
 
