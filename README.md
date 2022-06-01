@@ -51,6 +51,14 @@ For this particular portfolio, I've used HTML, React and Javascript.
 ```
 After cloning down this repository, please run `npm install`.
 ```
+
+```
+Run `npm run build` to build your dist folder.
+```
+
+```
+Run `npm run deploy` after you switch to your gh-pages branch to deploy your server.
+```
 Packages installed:
 - [x] Axios
 - [x] Bootstrap
