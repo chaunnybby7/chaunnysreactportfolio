@@ -33,7 +33,7 @@ For this particular portfolio, I've used HTML, React and Javascript.
 
 
 
-or Go to <a href="">Chaunny's React Portfolio </a>
+
 
 
 
@@ -60,7 +60,7 @@ No installation is needed. Just click on the link to have access to my website.
 
 [Github React Portfolio](https://github.com/chaunnybby7/chaunnysreactportfolio)
 
-## Authors
+## Author
 YiLin Ong
 * [Github] (https://github.com/chaunnybby7)
 * [LinkedIn] (https://www.linkedin.com/in/chauntelleong/)
