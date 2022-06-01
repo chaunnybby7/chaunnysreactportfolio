@@ -1,13 +1,17 @@
 {
   "files": {
-    "main.css": "/chaunnysreactportfolio/static/css/main.f32734e0.css",
-    "main.js": "/chaunnysreactportfolio/static/js/main.8ee88acd.js",
+    "main.css": "/chaunnysreactportfolio/static/css/main.50536af5.css",
+    "main.js": "/chaunnysreactportfolio/static/js/main.2f6a1d07.js",
+    "static/media/lashbar.png": "/chaunnysreactportfolio/static/media/lashbar.a45950ae2156f297883f.png",
+    "static/media/socialnetworkapi.png": "/chaunnysreactportfolio/static/media/socialnetworkapi.7bd77a2149057e22b0a8.png",
+    "static/media/manifest.png": "/chaunnysreactportfolio/static/media/manifest.9701b9af7c27d5c9e79f.png",
+    "static/media/funquiz.png": "/chaunnysreactportfolio/static/media/funquiz.8020317a88c8108fa516.png",
     "index.html": "/chaunnysreactportfolio/index.html",
-    "main.f32734e0.css.map": "/chaunnysreactportfolio/static/css/main.f32734e0.css.map",
-    "main.8ee88acd.js.map": "/chaunnysreactportfolio/static/js/main.8ee88acd.js.map"
+    "main.50536af5.css.map": "/chaunnysreactportfolio/static/css/main.50536af5.css.map",
+    "main.2f6a1d07.js.map": "/chaunnysreactportfolio/static/js/main.2f6a1d07.js.map"
   },
   "entrypoints": [
-    "static/css/main.f32734e0.css",
-    "static/js/main.8ee88acd.js"
+    "static/css/main.50536af5.css",
+    "static/js/main.2f6a1d07.js"
   ]
 }
