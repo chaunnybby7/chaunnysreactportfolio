@@ -13,15 +13,13 @@ export default function About() {
       <p>
       <br/ >
 
-      Please take a look at my <a
-      href="https://drive.google.com/file/d/1CjPwpdx-feef7jiRHdqPyMPbmLj6W2Iq/view?usp=sharing"
-      download
-    >
-      Resume
-    </a> 📃
+      
     <br/ >    <br/ >    
 
        <h2>Skills:</h2>
+       <li>Social Media</li>
+       <li>SEO</li>
+       <li>Frontend Web Development</li>
       <li>React</li>
       <li>Heroku</li>
       <li>Github</li>

@@ -18,13 +18,14 @@ export default function Home(props) {
   <Card.Body>
 <Card.Text>     
 <h1><b>YiLin Ong</b>.</h1> <i>aka</i> <b>Chaunny.</b> <br/ ><br />
-In Progress: 
+Aspiring  
 
 <div className="Typew">
 <TypeWriterEffect
 startDelay={1000}
 cursorColor="pink"
 multiText={[
+  'Digital Marketing Specialist'
   'Full Stack Developer',
   'Software Engineer',
   'Front-End Web Developer',
@@ -38,16 +39,17 @@ typeSpeed={30}
    </Card.Text>
    
    <br /> <br />
-   <button className='button' onClick={() => {
-    props.history.push('/about');
-  }}>Learn More</button>
+   <button className='button' onClick={ 
+     ()=> { props.setCurrentPage('About') }
+   }
+  >Learn More</button>
 
 
   </Card.Body>
 
 
   
-<br /><br /><br /><br /><br /><br /><br /><br />
+<br /><br /><br /><br /><br />
 
 </Card>
       

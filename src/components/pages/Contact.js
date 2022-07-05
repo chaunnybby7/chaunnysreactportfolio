@@ -1,12 +1,20 @@
-import React from 'react';
-import { Card, FormControl, InputGroup, Form, Button, Row } from 'react-bootstrap';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import React, { useRef }from 'react';
+import { FormControl, InputGroup, Form, Button, Row } from 'react-bootstrap';
+
+
 // import { library } from "@fortawesome/fontawesome-svg-core";
 
 
 export default function Contact() {
+
+const emailinput = useRef()
+
+
+function Alert(){
+  if ( emailinput.current.value === '' ) 
+  alert("Please type in an email address.")
+}
+
   return (
     <div>
     <Row md={1} className="g-3">
@@ -19,7 +27,7 @@ export default function Contact() {
 </InputGroup>
   <Form.Group className="mb-3" controlId="formBasicEmail">
     <Form.Label>Email address</Form.Label>
-    <Form.Control type="email" placeholder="Enter email" />
+    <Form.Control type="email" placeholder="Enter email" ref={emailinput} onBlur={Alert} />
     <Form.Text className="p">
       We'll never share your email with anyone else.
     </Form.Text>
@@ -40,19 +48,11 @@ export default function Contact() {
   </Button></center>
 </Form></Row>
 
-<center>
 
 <br/ > <br/ >
-<Card className="footer">
-<br/ >  <br/ > 
 
-<FontAwesomeIcon icon={faLinkedin} onClick={() => window.open( 'https://www.linkedin.com/in/chauntelleong/')} size="2x" className='social' />
-<FontAwesomeIcon icon={faGithub}  onClick={() => window.open( 'https://github.com/chaunnybby7')} size="2x" className='social' />
-<FontAwesomeIcon icon={faEnvelope}  onClick={() => window.location = 'mailto:yong@nyit.edu'} size="2x" className='social' />
 
-</Card>
 
-</center>
 
     </div>
   );
