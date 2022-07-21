@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/chaunnysreactportfolio/static/css/main.50536af5.css",
-    "main.js": "/chaunnysreactportfolio/static/js/main.5c7271da.js",
+    "main.js": "/chaunnysreactportfolio/static/js/main.7fa03403.js",
     "static/media/lashbar.png": "/chaunnysreactportfolio/static/media/lashbar.a45950ae2156f297883f.png",
     "static/media/socialnetworkapi.png": "/chaunnysreactportfolio/static/media/socialnetworkapi.7bd77a2149057e22b0a8.png",
     "static/media/manifest.png": "/chaunnysreactportfolio/static/media/manifest.9701b9af7c27d5c9e79f.png",
@@ -9,10 +9,10 @@
     "static/media/YiLinOng_Resume.pdf": "/chaunnysreactportfolio/static/media/YiLinOng_Resume.4252fa80c4dffdc353e2.pdf",
     "index.html": "/chaunnysreactportfolio/index.html",
     "main.50536af5.css.map": "/chaunnysreactportfolio/static/css/main.50536af5.css.map",
-    "main.5c7271da.js.map": "/chaunnysreactportfolio/static/js/main.5c7271da.js.map"
+    "main.7fa03403.js.map": "/chaunnysreactportfolio/static/js/main.7fa03403.js.map"
   },
   "entrypoints": [
     "static/css/main.50536af5.css",
-    "static/js/main.5c7271da.js"
+    "static/js/main.7fa03403.js"
   ]
 }
