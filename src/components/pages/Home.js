@@ -25,7 +25,7 @@ Aspiring
 startDelay={1000}
 cursorColor="pink"
 multiText={[
-  'Digital Marketing Specialist'
+  'Digital Marketing Specialist',
   'Full Stack Developer',
   'Software Engineer',
   'Front-End Web Developer',

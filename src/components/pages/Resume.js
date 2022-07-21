@@ -12,7 +12,7 @@ export default function Resume() {
     <br /> <br/>
     <center>
     <p>Please take a look at my <a
-    href="https://drive.google.com/file/d/1bm7WBKCfqUtPToPKQXj8Z2rFZZX-isq0/view?usp=sharing"
+    href="https://drive.google.com/file/d/1Ua0jSsOIQB4avO8TKe82MwkLq8Q3hXi4/view?usp=sharing"
     download
   >
     Resume
